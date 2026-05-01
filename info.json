@@ -17,6 +17,12 @@
       "type": "input"
     },
     {
+      "key": "model",
+      "display": "模型",
+      "type": "input",
+      "hint": "deepseek-ai/DeepSeek-OCR"
+    },
+    {
       "key": "customPrompt",
       "display": "自定义 Prompt",
       "type": "input",
