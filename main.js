@@ -1,27 +1,9 @@
 async function recognize(base64, lang, options) {
     const { config, utils } = options;
     const { tauriFetch: fetch } = utils;
-    let { apiKey, requestPath, model, customModel, customPrompt } = config;
-
-    if (!requestPath) {
-        requestPath = "https://api.siliconflow.cn";
-    }
-    if (!/https?:\/\/.+/.test(requestPath)) {
-        requestPath = `https://${requestPath}`;
-    }
-    if (requestPath.endsWith('/')) {
-        requestPath = requestPath.slice(0, -1);
-    }
-    if (!requestPath.endsWith('/chat/completions')) {
-        if (!requestPath.endsWith('/v1')) {
-            requestPath += '/v1';
-        }
-        requestPath += '/chat/completions';
-    }
-
-    if (model === "__custom__" || !model) {
-        model = customModel || "deepseek-ai/DeepSeek-OCR";
-    }
+    let { apiKey, customPrompt } = config;
+    const model = "deepseek-ai/DeepSeek-OCR";
+    const requestPath = "https://api.siliconflow.cn/v1/chat/completions";
 
     if (!customPrompt) {
         customPrompt = "<image>\nFree OCR.";

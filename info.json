@@ -6,27 +6,6 @@
   "homepage": "https://github.com/saillill/pot-app-recognize-plugin-deepseek",
   "needs": [
     {
-      "key": "model",
-      "display": "模型",
-      "type": "select",
-      "options": {
-        "deepseek-ai/DeepSeek-OCR": "DeepSeek-OCR (默认)",
-        "__custom__": "自定义..."
-      }
-    },
-    {
-      "key": "customModel",
-      "display": "自定义模型名",
-      "type": "input",
-      "hint": "选择「自定义」后在此填入模型ID"
-    },
-    {
-      "key": "requestPath",
-      "display": "请求地址",
-      "type": "input",
-      "hint": "https://api.siliconflow.cn"
-    },
-    {
       "key": "apiKey",
       "display": "API Key",
       "type": "input"
