@@ -31,18 +31,3 @@
 | 自定义请求地址 | 输入 | 选择「自定义」后，填入 OpenAI 兼容 API 地址 |
 | API Key | 输入 | 你的 API 密钥 |
 | 自定义 Prompt | 输入 | 默认 `Free OCR.`，可按需修改 |
-
-## 常见问题
-
-**Q: 提示「account balance is insufficient」？**
-A: 硅基流动账户余额不足，前往 [cloud.siliconflow.cn](https://cloud.siliconflow.cn) 充值。
-
-**Q: 提示「Model does not exist」？**
-A: 模型名填写有误，检查是否正确。硅基流动应使用 `deepseek-ai/DeepSeek-OCR`。
-
-**Q: 支持哪些语言？**
-A: DeepSeek-OCR 支持近百种语言，包括中、日、韩、英、法、德、俄等。
-
-## 自动编译
-
-本仓库配置了 GitHub Actions，推送代码后自动打包，打 Tag 后自动发布 Release。
