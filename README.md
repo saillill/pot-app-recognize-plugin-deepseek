@@ -17,11 +17,10 @@
 1. 打开 [cloud.siliconflow.cn](https://cloud.siliconflow.cn) 注册账号
 2. 进入「API 密钥」页面，创建新密钥
 3. 复制 `sk-` 开头的密钥，填入插件配置
-4. 新用户有免费额度，用完后需充值
 
 ## 配置说明
 
 | 配置项 | 说明 |
 |--------|------|
 | API Key | 硅基流动 API 密钥（`sk-` 开头） |
-| 自定义 Prompt | 默认 `Free OCR.`，一般不用改 |
+| 自定义 Prompt | 默认 `Free OCR.` |
