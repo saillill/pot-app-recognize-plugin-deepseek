@@ -1,3 +1,7 @@
+<div align="center">
+<h3>[English][<a href='./README.md'>中文</a>]</h3>
+</div>
+
 # Pot-App Recognize Plugin - DeepSeek OCR
 
 An OpenAI-compatible API plugin for Pot-App, using DeepSeek-OCR model by default. Supports OCR for 100+ languages.

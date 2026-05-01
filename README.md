@@ -1,3 +1,7 @@
+<div align="center">
+<h3>[<a href='./README_EN.md'>English</a>][中文]</h3>
+</div>
+
 # Pot-App 文字识别插件 - DeepSeek OCR
 
 基于 OpenAI 兼容 API 的文字识别插件，默认使用 DeepSeek-OCR 模型，支持近百种语言的文字识别。
