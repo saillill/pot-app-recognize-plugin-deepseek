@@ -10,19 +10,30 @@
       "display": "模型",
       "type": "select",
       "options": {
-        "deepseek-ai/DeepSeek-OCR": "DeepSeek-OCR (文字识别)",
-        "deepseek-ai/deepseek-vl2": "DeepSeek-VL2 (通用视觉)",
-        "gpt-4o": "GPT-4o (OpenAI)",
-        "Qwen/Qwen3-VL-8B": "Qwen3-VL-8B",
-        "Pro/Qwen/Qwen3-VL-8B": "Qwen3-VL-8B (第三方)",
-        "Qwen/Qwen3-VL-32B": "Qwen3-VL-32B"
+        "deepseek-ai/DeepSeek-OCR": "DeepSeek-OCR (默认)",
+        "__custom__": "自定义..."
       }
+    },
+    {
+      "key": "customModel",
+      "display": "自定义模型名",
+      "type": "input",
+      "hint": "选择「自定义」后在此填入模型ID"
     },
     {
       "key": "requestPath",
       "display": "请求地址",
+      "type": "select",
+      "options": {
+        "https://api.siliconflow.cn": "硅基流动 (默认)",
+        "__custom__": "自定义..."
+      }
+    },
+    {
+      "key": "customRequestPath",
+      "display": "自定义请求地址",
       "type": "input",
-      "hint": "https://api.siliconflow.cn"
+      "hint": "选择「自定义」后在此填入API地址"
     },
     {
       "key": "apiKey",
@@ -33,7 +44,7 @@
       "key": "customPrompt",
       "display": "自定义 Prompt",
       "type": "input",
-      "hint": "<image>\nFree OCR."
+      "hint": "默认: Free OCR."
     }
   ],
   "language": {
