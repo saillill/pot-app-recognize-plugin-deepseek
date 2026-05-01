@@ -1,10 +1,10 @@
 async function recognize(base64, lang, options) {
     const { config, utils } = options;
     const { tauriFetch: fetch } = utils;
-    let { apiKey, requestPath, customRequestPath, model, customModel, customPrompt } = config;
+    let { apiKey, requestPath, model, customModel, customPrompt } = config;
 
-    if (requestPath === "__custom__" || !requestPath) {
-        requestPath = customRequestPath || "https://api.siliconflow.cn";
+    if (!requestPath) {
+        requestPath = "https://api.siliconflow.cn";
     }
     if (!/https?:\/\/.+/.test(requestPath)) {
         requestPath = `https://${requestPath}`;

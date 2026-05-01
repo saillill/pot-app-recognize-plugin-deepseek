@@ -23,17 +23,8 @@
     {
       "key": "requestPath",
       "display": "请求地址",
-      "type": "select",
-      "options": {
-        "https://api.siliconflow.cn": "硅基流动 (默认)",
-        "__custom__": "自定义..."
-      }
-    },
-    {
-      "key": "customRequestPath",
-      "display": "自定义请求地址",
       "type": "input",
-      "hint": "选择「自定义」后在此填入API地址"
+      "hint": "https://api.siliconflow.cn"
     },
     {
       "key": "apiKey",
