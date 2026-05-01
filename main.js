@@ -2,7 +2,7 @@ async function recognize(base64, lang, options) {
     const { config, utils } = options;
     const { tauriFetch: fetch } = utils;
     let { apiKey, requestPath, customPrompt } = config;
-    const model = "deepseek-ai/DeepSeek-OCR";
+    const model = "deepseek-ocr";
 
     if (!requestPath) {
         requestPath = "https://api.siliconflow.cn";
