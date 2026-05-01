@@ -1,5 +1,5 @@
 <div align="center">
-<h3>[English][<a href='./README.md'>中文</a>]</h3>
+[English][中文]
 </div>
 
 # Pot-App Recognize Plugin - DeepSeek OCR
@@ -17,11 +17,10 @@ A Pot-App OCR plugin using SiliconFlow's DeepSeek-OCR model. Supports 100+ langu
 1. Register at [cloud.siliconflow.com](https://cloud.siliconflow.com)
 2. Go to API Keys page and create a new key
 3. Copy the key (starts with `sk-`) into the plugin config
-4. New users get free credits; top up when needed
 
 ## Configuration
 
 | Field | Description |
 |-------|-------------|
 | API Key | Your SiliconFlow API key (starts with `sk-`) |
-| Custom Prompt | Default `Free OCR.`, usually no need to change |
+| Custom Prompt | Default `Free OCR.` |
