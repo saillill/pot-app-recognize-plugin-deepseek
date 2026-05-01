@@ -2,7 +2,7 @@ async function recognize(base64, lang, options) {
     const { config, utils } = options;
     const { tauriFetch: fetch } = utils;
     let { apiKey, requestPath, customPrompt } = config;
-    const model = "deepseek-ocr";
+    const model = "deepseek-ai/DeepSeek-OCR";
 
     if (!requestPath) {
         requestPath = "https://api.siliconflow.cn";
@@ -20,7 +20,7 @@ async function recognize(base64, lang, options) {
         requestPath += '/chat/completions';
     }
     if (!customPrompt) {
-        customPrompt = "Free OCR.";
+        customPrompt = "<image>\nFree OCR.";
     } else {
         customPrompt = customPrompt.replaceAll("$lang", lang);
     }
