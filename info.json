@@ -6,6 +6,19 @@
   "homepage": "https://github.com/saillill/pot-app-recognize-plugin-deepseek",
   "needs": [
     {
+      "key": "model",
+      "display": "模型",
+      "type": "select",
+      "options": {
+        "deepseek-ai/DeepSeek-OCR": "DeepSeek-OCR (文字识别)",
+        "deepseek-ai/deepseek-vl2": "DeepSeek-VL2 (通用视觉)",
+        "gpt-4o": "GPT-4o (OpenAI)",
+        "Qwen/Qwen3-VL-8B": "Qwen3-VL-8B",
+        "Pro/Qwen/Qwen3-VL-8B": "Qwen3-VL-8B (第三方)",
+        "Qwen/Qwen3-VL-32B": "Qwen3-VL-32B"
+      }
+    },
+    {
       "key": "requestPath",
       "display": "请求地址",
       "type": "input",
@@ -17,16 +30,10 @@
       "type": "input"
     },
     {
-      "key": "model",
-      "display": "模型",
-      "type": "input",
-      "hint": "deepseek-ai/DeepSeek-OCR"
-    },
-    {
       "key": "customPrompt",
       "display": "自定义 Prompt",
       "type": "input",
-      "hint": "默认: Free OCR."
+      "hint": "<image>\nFree OCR."
     }
   ],
   "language": {
