@@ -23,4 +23,4 @@
 | 配置项 | 说明 |
 |--------|------|
 | API Key | 硅基流动 API 密钥（`sk-` 开头） |
-| 自定义 Prompt | 可填 `从这张图片中提取所有文本，并以Markdown格式呈现。`|
+| 自定义 Prompt | 可填 `Extract all text from this image and present it in Markdown format.`|
