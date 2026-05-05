@@ -1,4 +1,4 @@
-<div align="center">
+<div align=“中心”>
 <h3>[<a href='./README_EN.md'>English</a>][中文]</h3>
 </div>
 
@@ -15,7 +15,7 @@
 ## 获取 API Key
 
 1. 打开 [cloud.siliconflow.cn](https://cloud.siliconflow.cn) 注册账号
-2. 进入「API 密钥」页面，创建新密钥
+2. 进入`API 密钥`页面，创建新密钥
 3. 复制 `sk-` 开头的密钥，填入插件配置
 
 ## 配置说明
@@ -23,4 +23,4 @@
 | 配置项 | 说明 |
 |--------|------|
 | API Key | 硅基流动 API 密钥（`sk-` 开头） |
-| 自定义 Prompt | 默认 `Free OCR.` |
+| 自定义 Prompt | 可填 `从这张图片中提取所有文本，并以Markdown格式呈现。`|
