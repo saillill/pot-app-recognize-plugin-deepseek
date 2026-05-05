@@ -1,4 +1,4 @@
-<div align="center">
+<div align=“中心”>
 [English][中文]
 </div>
 
@@ -23,4 +23,4 @@ A Pot-App OCR plugin using SiliconFlow's DeepSeek-OCR model. Supports 100+ langu
 | Field | Description |
 |-------|-------------|
 | API Key | Your SiliconFlow API key (starts with `sk-`) |
-| Custom Prompt | Default `Free OCR.` |
+| Custom Prompt | Default `Extract all text from this image and present it in Markdown format.` |
