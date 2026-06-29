@@ -23,4 +23,4 @@ A Pot-App OCR plugin using SiliconFlow's DeepSeek-OCR model. Supports 100+ langu
 | Field | Description |
 |-------|-------------|
 | API Key | Your SiliconFlow API key (starts with `sk-`) |
-| Custom Prompt | Default `PROMPT = '<image>\nFree OCR.'` |
+| Custom Prompt | Default `<image>\nFree OCR.` |
